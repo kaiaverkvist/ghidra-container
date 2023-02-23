@@ -19,13 +19,7 @@ jobs:
             matrix:
                 ghidra-version:
                     - 'latest'
-                    - '10.1.4'
-                    - '10.1.3'
-                    - '10.1.2'
-                    - '10.0.4'
-                    - '10.0.3'
-                    - '10.0.2'
-                    - '10.0.1'
+                    - '10.2.3'
         steps:
             - name: Log in to the Container registry
               uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
